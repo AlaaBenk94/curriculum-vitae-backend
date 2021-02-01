@@ -1,9 +1,8 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: none
   datasource:
-    initialization-mode: always
     platform: postgres
     url: jdbc:postgresql://localhost:5432/cvdb
     username: postgres
